@@ -19,3 +19,9 @@ enum State {
     INITIAL
 }
 
+let state = State.DONE;
+
+if (state === State.DONE) {
+    
+}
+

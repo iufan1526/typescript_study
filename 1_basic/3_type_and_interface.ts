@@ -11,6 +11,7 @@
 
 // NewStringType을 string 처럼 사용할수 있다!
 type NewStringType = string;
+
 const stringVar1: NewStringType = "안녕하셍요";
 
 type IdolType = {
@@ -26,7 +27,7 @@ const idolGroup: IdolType = {
 /**
  * Interface
  * Type이 하지못하는 일을 하기위해 나왔다.. 둘의 기능이 겹치는 부분이 있다
- * 
+ * 객체 형태로 들어간다
  */
 
 interface IdolInterface { 
@@ -41,6 +42,7 @@ const yujin: IdolInterface = {
 
 /**
  * Optional
+ * 입력 해두되고 안해두된다.
  */
 
 interface IdolOptional {
